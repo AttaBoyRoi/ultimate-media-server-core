@@ -1,18 +1,20 @@
-# The Ultimate Media Server Setup!
-This repo is a work-in-progress... If you have any additions, please feel free to submit a PR!
+# home-media-management
+Setup tools for home media management using Plex or Emby with private automatic management.
 
-The aim of this project, is to build your perfect media server setup with end-to-end automation in an evening, not weeks - I'll be updating this repo as my own setup evolves, but for now here's a "dump" to help you get the perfect PMS setup!
-If you're new to this, you should clone down the repo, and start by reading about all the various services that are listed, and then standing up all the services within Docker - one by one - __This is the easiest way to get running__...
+### Construct Components:
 
-**@UPDATE:**
+#### Virtualization:
+- [Docker](https://www.docker.com) - container virtualization using less resources (disk space, RAM, etc.) then full virtual solutions.
+- [Portainer](https://www.portainer.io) - web based docker manager making docker container management easy.
 
-```
-There's a lot here, I'll add some screen-shots and do a proper blog write-up on this one day so you
-can see it all working, for now you'll have to take my word If you want to "cut the cord" - You're
-not going to get much better than this!
-```
+#### Media Servers
+- [Plex](https://plex.tv/) - popular web based media library manager.
+- [Emby](https://emby.media) - web based media library manager.
 
---------------------------------------------
+#### Download Automation
+
+Original
+---------------------------------------------------------
 
 ### My _almost_ perfect media server setup consists of:
 
